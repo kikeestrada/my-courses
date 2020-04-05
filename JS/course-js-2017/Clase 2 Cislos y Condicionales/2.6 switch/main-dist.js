@@ -1,0 +1,2 @@
+"use strict";console.log("Clase 2.6"),console.log("switch");var color=prompt("Conoce tu personalidad según tu color (escribe su número): \n1. Rojo \n2. Verde\n3. Azul\n4. Negro\n5. Amarillo");switch(color){case"1":console.log("Escogiste rojo, eres un romántico");break;case"2":console.log("Escogiste verde, estás en contacto con la naturaleza");break;default:console.log("Por favor, escoge un color válido")}
+//# sourceMappingURL=main-dist.js.map

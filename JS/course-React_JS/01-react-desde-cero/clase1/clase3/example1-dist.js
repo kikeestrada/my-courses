@@ -1,0 +1,2 @@
+"use strict";var FnSayHello=function(e){return React.createElement("h1",null,e.hello)};ReactDOM.render(React.createElement(FnSayHello,{hello:"Hello World using a function props"}),document.getElementById("app"));
+//# sourceMappingURL=example1-dist.js.map

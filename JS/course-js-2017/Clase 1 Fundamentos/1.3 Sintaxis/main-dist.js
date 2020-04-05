@@ -1,0 +1,2 @@
+"use strict";console.log("Claseb 1.3 Sintaxis"),console.log("JS es casesensitive y se usa Camel Case");var miSaludo="Hola Mundo";console.log(miSaludo),console.log("El punto y coma es opcional pero el salto de linea lo omite");var a=void 0;a=5,console.log(a),console.log("en los bloques no se requiere el punto y coma"),console.log("los bloques hace una variable propia de un contexto");var saludo="hola";console.log(saludo);
+//# sourceMappingURL=main-dist.js.map

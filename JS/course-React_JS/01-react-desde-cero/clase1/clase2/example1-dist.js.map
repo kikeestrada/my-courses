@@ -1,0 +1,1 @@
+{"version":3,"sources":["example1.js"],"names":["varNameUser","varSayHello","React","createElement","ReactDOM","render","document","getElementById"],"mappings":"aAQA,IAAAA,sBACAC,YAAAC,MAAAC,+CACAC,SACAC,OACAJ,YAAAK,SAAAC,eACA"}

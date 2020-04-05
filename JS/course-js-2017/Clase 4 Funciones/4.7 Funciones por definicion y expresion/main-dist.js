@@ -1,0 +1,2 @@
+"use strict";function funcionPorDefinicion(){console.log("funcion por Definicion")}console.log("Clase 4.7 - Funciones por definición y expresion"),funcionPorDefinicion();var funcionPorExpresion=function(){console.log("funcion por Expresion")};funcionPorExpresion();var c=console.log;c("hola mundo");
+//# sourceMappingURL=main-dist.js.map

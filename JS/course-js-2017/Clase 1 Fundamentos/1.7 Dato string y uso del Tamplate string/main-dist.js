@@ -1,0 +1,2 @@
+"use strict";console.log("Clase 1.7"),console.log("Dato String y uso del Tamplate String"),console.log("");var saludo="Hola Mundo";console.log(saludo),console.log("");var saludo2='Hola "Mundo"';console.log(saludo2),console.log("");var numero=2,amigo="kikeestrada",saludo3="Bienvenido "+amigo;console.log(saludo3),console.log("");var saludo4="Bienvenido, "+amigo+". "+3*numero;console.log(saludo4);
+//# sourceMappingURL=main-dist.js.map

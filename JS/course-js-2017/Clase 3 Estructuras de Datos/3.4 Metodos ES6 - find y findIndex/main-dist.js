@@ -1,0 +1,2 @@
+"use strict";console.log("Clase 3.4"),console.log("Metodos ES6 - find y findindex"),console.log(""),console.log(".find(cb) devuelve el primer elemento que cumpla conuna condicion");var array=[1,2,3,4,5];console.log(array),console.log("");var num=array.find(function(o){return 3<o});console.log("el valor consultado es: "+num),console.log("");var numIndex=array.findIndex(function(o){return 3<o});console.log("El indice del valor consultado es: "+numIndex),console.log("");
+//# sourceMappingURL=main-dist.js.map

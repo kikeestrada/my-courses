@@ -1,0 +1,2 @@
+"use strict";console.log("Clase 2.4"),console.log("Condicionales");var edad=prompt("Dime tu edad");edad<12?(console.log("eres niño"),edad<2&&console.log("eres un bebé")):12<=edad&&edad<18?console.log("eres adolescente"):18<=edad&&edad<60?console.log("eres adulto"):console.log("eres anciano");
+//# sourceMappingURL=main-dist.js.map

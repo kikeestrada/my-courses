@@ -1,0 +1,1 @@
+{"version":3,"sources":["class2.2.js"],"names":["console","log","Usuario","_classCallCheck","this","nombre","apellido","correo","edad","kike","jose"],"mappings":"yHAAAA,QAAAC,iBACAD,QAAAC,8BAUAC,4BAKAC,gBAAAC,KAAAF,eACAG,gBACAC,cACAC,YACAC,GAGAC,KAAA,IAAAP,QAAA,OAAA,UAAA,4BACAF,QAAAC,0BACAD,QAAAC,UAEA,IAAAS,KAAA,IAAAR,QAAA,OAAA,QAAA,0BACAF,QAAAC,0BACAD,QAAAC"}

@@ -1,0 +1,2 @@
+"use strict";var varNameUser="Enrique",varSayHello=React.createElement("h1",null," Hello ",varNameUser);ReactDOM.render(varSayHello,document.getElementById("app"));
+//# sourceMappingURL=example1-dist.js.map

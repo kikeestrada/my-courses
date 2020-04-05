@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.js"],"names":["console","log","date","dir","setFullYear","setMinutes","setHours","setDate","setMonth"],"mappings":"aAAAA,QAAAC,sCACAD,QAAAC,4BACAD,QAAAC,gEACAD,QAAAC,QACA,IAAAC,KAAA,SACAF,QAAAC,UACAD,QAAAC,QACAD,QAAAG,UACAH,QAAAC,QAEAC,KAAAE,kBACAF,KAAAG,eACAH,KAAAI,aACAJ,KAAAK,YACAL,KAAAM,aACAR,QAAAC,UACAD,QAAAC"}

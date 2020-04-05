@@ -1,0 +1,2 @@
+"use strict";console.log("Clase 3.12"),console.log("Ejercicio sacar promedio ( Método reduce)"),console.log(""),console.log("reduce(cb(prev, current [,indice, array] [,initial]))"),console.log("Array de Numeros");var numeros=[2,4,60,8,10];console.log(numeros);var promedio=numeros.reduce(function(o,e,r,c){return e+=o,r===c.length-1?e/c.length:e});console.log(promedio);
+//# sourceMappingURL=main-dist.js.map

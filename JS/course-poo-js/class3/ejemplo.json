@@ -1,0 +1,19 @@
+{
+  "nombre"    : "Enrique Jr",
+  "apellido"  : "Estrada",
+  "edad"      : 40,
+  "cursos"    : [
+    {
+      "id"    : 5,
+      "nombre": "Drupal"
+    },
+    {
+      "id"    : 19,
+      "nombre": "Drupal Avanzado"
+    },
+    {
+      "id"    : 55,
+      "nombre": "Java Script"
+    }
+  ]
+}

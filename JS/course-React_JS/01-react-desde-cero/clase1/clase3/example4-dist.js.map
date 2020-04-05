@@ -1,0 +1,1 @@
+{"version":3,"sources":["example4.js"],"names":["_classCallCheck","this","ClsSayHello","props","Component","React","createElement","name","ReactDOM","render","hello","document","getElementById"],"mappings":"k6BAOAA,gBAAAC,KAAAC,2FACAC,iDAaA,wBAXA,sCAJAC,0DAmBA,OAAAC,MAAAC,6DACAC,eAGAC,SACAC,OAAAJ,MAAAC,cAAAJ,aAAAQ,MACA,gBAAAC,SAAAC,eACA"}

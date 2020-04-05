@@ -1,0 +1,2 @@
+"use strict";console.log("Clase 4.9 - Arrow functions");var suma=function(o,a){return o+a},miSuma=suma(1,2);console.log(miSuma),console.log(""),console.log("Si deseamos algo mas elaborado ocuparemos las llaves {}"),console.log(""),console.log("Ejercicio Para obtener el Cuadrado");var cuadrado=function(o){return"number"==typeof o?o*o:void 0},miCuadrado=cuadrado(6);console.log(miCuadrado),console.log("");var myObj=function(o,a){return{a:o,b:a}},myCustomObj=myObj("hola","mundo");console.log(myCustomObj);
+//# sourceMappingURL=main-dist.js.map

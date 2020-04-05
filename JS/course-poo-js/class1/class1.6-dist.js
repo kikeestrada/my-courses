@@ -1,0 +1,2 @@
+"use strict";console.log("Clase 1.6"),console.log("Declaración de objetos (ejemplo 2)");var cliente={nombre:"Kike",edad:28,peso:85,altura:175,fechaRegistro:"22/02/2019"},cliente2={nombre:"Jose",edad:35,peso:70,altura:180,fechaRegistro:"22/03/2019"},cliente3={nombreCompleto:"Miguel",edad:35,fechaDeRegistro:"22/04/2019"},arrayCLientes=[cliente,cliente2,cliente3];console.log(arrayCLientes);
+//# sourceMappingURL=class1.6-dist.js.map

@@ -1,0 +1,1 @@
+{"version":3,"sources":["example1.js"],"names":["FnSayHello","props","React","createElement","hello","ReactDOM","render","document","getElementById"],"mappings":"aAkBA,IAAAA,WAAA,SAAAC,GAGA,OAAAC,MAAAC,0BACAC,QAGAC,SACAC,OAAAJ,MAAAC,cAAAH,YAAAI,MACA,uCAAAG,SAAAC,eACA"}

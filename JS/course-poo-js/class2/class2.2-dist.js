@@ -1,0 +1,2 @@
+"use strict";function _classCallCheck(o,s){if(!(o instanceof s))throw new TypeError("Cannot call a class as a function")}console.log("Clase 2.2"),console.log("Creación de clases");var Usuario=function o(s,e,a,i){_classCallCheck(this,o),this.nombre=s,this.apellido=e,this.correo=a,this.edad=i},kike=new Usuario("kike","Estrada","kikeestrada@gmail.com",40);console.log("imprime un usuario"),console.log(kike);var jose=new Usuario("jose","rojas","joserojas@gmail.com",35);console.log("imprime un usuario"),console.log(jose);
+//# sourceMappingURL=class2.2-dist.js.map

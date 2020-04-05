@@ -1,0 +1,2 @@
+"use strict";console.log("Clase 1.6 Tipos de Datos"),console.log("Datos Primitivos");var saludo="Hola Mundo";console.log(saludo),console.log(saludo.length),console.log("Quién construyó esta variable de tipo texto?"),console.log(saludo.constructor),console.log(),console.log(),console.log("Datos Compuestos");
+//# sourceMappingURL=main-dist.js.map

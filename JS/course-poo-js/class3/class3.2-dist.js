@@ -1,0 +1,2 @@
+"use strict";console.log("Clase 3.2"),console.log("Valores de un formulario");var form1=document.getElementById("myForm");form1.addEventListener("submit",function(e){e.preventDefault(),profesor.textContent=e.target.nombre.value});var profesor=document.createElement("h1");profesor.classList.add("class-teacher"),profesor.id="idTeacher",document.body.appendChild(profesor);
+//# sourceMappingURL=class3.2-dist.js.map
