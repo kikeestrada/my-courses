@@ -1,0 +1,31 @@
+.cls3-container2{
+  /* PROPIEDAD : flex-wrap */
+
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+
+
+  flex-wrap: wrap;
+  //los items se apiñan en su eje pero con el flex-wrap se pasan ala otra linea
+  .flex-item{
+    color: white;
+    background: tomato;
+  }
+  .flex-item:nth-child(odd){
+    background: teal;
+  }
+  .flex-item{
+    //si tenemos 9 cajas y queda un espacio en blanco lo podemos llenar usando flex:auto
+    flex: auto;
+    //ojo con lo que psas cuando ponemos un width de 25%
+    width: 25%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //ojo con lo que pasa con el margin y el calculo de los items
+    margin: 10px;
+  }
+}

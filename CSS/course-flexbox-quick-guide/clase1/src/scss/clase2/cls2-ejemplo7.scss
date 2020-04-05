@@ -1,0 +1,42 @@
+.cls2-ejemplo7{
+   /*
+      Abreviacion
+
+      flex-grow   : 1;
+      flex-shrink : 1;
+      flex-basis  : 100px;
+
+      shorthand: flex: 1 1 100px;
+
+      Valor predeterminado: flex: 0 1 auto;
+
+      flex: none; = flex: 0 0 auto = NO seas flexible
+      flex: auto; = flex: 1 1 auto = sé flexible
+      flex: N;    = flex: N 0 0    = NO seas flexible
+
+
+    */
+
+  .flex-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    &:nth-child(1){
+      flex: 25;
+    }
+    &:nth-child(2){
+      flex: 20;
+    }
+    &:nth-child(3){
+      flex: 45;
+    }
+    &:nth-child(4){
+      flex: 10;
+    }
+    &:last-child{
+      margin-right: 15px;
+    }
+
+  }
+}

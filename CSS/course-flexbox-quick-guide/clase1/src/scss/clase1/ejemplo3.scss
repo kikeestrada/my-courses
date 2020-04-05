@@ -1,0 +1,47 @@
+//Aqui veremos como distribuir y alinear elementos en el je principal y el eje secundario
+
+.ejemplo3{
+  //justify-content: Esta propiedad NO Alinea en Horizontal. alinea elementos en el eje principal
+  //justify-content: flex-start; este es el valor por defecto
+  //Valores de la propiedad:
+
+  //justify-content: flex-start;
+  //justify-content: flex-end;
+  //justify-content: center;
+  //justify-content: inherit;
+  //justify-content: space-around;
+  justify-content: space-between;
+
+  //======================================================================
+  //podemos agregar el flex-direction: property; para jugar con los ejes inversos
+  //flex-direction: Property;
+
+  //flex-direction: row;
+  //flex-direction: row-reverse;
+  //flex-direction: column;
+  //flex-direction: column-reverse;
+
+
+  //======================================================================
+  //align-items: property; Alinea el elemento con respecto a su eje secundario
+  //align-items: stretch; Propiedad por defecto
+  //align-items: stretch;
+  //align-items: flex-start;
+  //align-items: center;
+  //align-items: flex-end;
+  //align-items: baseline;
+  align-items: inherit;
+
+
+
+  .flex-item{
+    padding: 15px;
+    color: white;
+    background: tomato;
+    //width: 60px;
+    //height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

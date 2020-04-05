@@ -1,0 +1,27 @@
+.cls2-ejemplo1{
+
+  /*
+    MainSize  -> relativo al Main Axis  (Default: Width)  tamaño principal
+    CorssSize -> relativo al Cross Axis (Default: height) tamaño secundario
+  */
+
+  /*
+    Como se calcula el cross size?
+
+
+    2. VALORES POR DEFECTO,  No definir el tamaño y no definido align items o align content
+
+    3, No definir el tamaño del item (dejarlo con u valor por defecto
+        pero sí definimos un align Items diferente de strech
+  */
+
+  //align-items: center;
+
+  .flex-item{
+    /* 1. Definir el tamaño del item, poner un alto de 200px al flex-item */
+    //height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

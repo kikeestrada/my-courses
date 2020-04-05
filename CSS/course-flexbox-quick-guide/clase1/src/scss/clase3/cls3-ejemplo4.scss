@@ -1,0 +1,40 @@
+.cls3-container4{
+  border: 1px solid black;
+
+  //Definimos un alto para el contenedor
+  height: 400px;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  //los items se apiñan en su eje pero con el flex-wrap se pasan ala otra linea
+  flex-wrap: wrap;
+
+  //ojo a esta propiedad
+  align-content: center;
+  //align-content: space-between;
+  //align-content: stretch;
+  //align-content: flex-end;
+  //align-content: flex-start;
+  //align-content: space-around;
+  //align-content: inherit;
+
+  .flex-item{
+    color: white;
+    background: tomato;
+  }
+  .flex-item:nth-child(odd){
+    background: teal;
+  }
+  .flex-item{
+    flex: 0 1 24%;
+    margin-bottom: 7px;
+
+    //ver efecto si quitamo ó ponermos el hight
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

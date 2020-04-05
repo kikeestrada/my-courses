@@ -1,0 +1,29 @@
+//Aqui veremos como distribuir y alinear elementos en el je principal y el eje secundario
+
+.ejemplo4{
+  //======================================================================
+
+  //flex-direction: row;
+  //flex-direction: row-reverse;
+  flex-direction: column;
+  //flex-direction: column-reverse;
+
+
+  //======================================================================
+  //justify-content: flex-start;
+  //justify-content: flex-end;
+  //justify-content: center;
+  //justify-content: inherit;
+  justify-content: space-around;
+  //justify-content: space-between;
+
+  //======================================================================
+
+  //align-items: stretch;
+  //align-items: flex-start;
+  //align-items: center;
+  //align-items: flex-end;
+  align-items: baseline;
+  //align-items: inherit;
+
+}

@@ -1,0 +1,36 @@
+//- head
+-var currentPage = "home"
+-var content = "My Page"
+-var tittle = "Here is the tittle var"
+-var siteName = 'Style Guides'
+-var description = "Here is the description Page."
+doctype html
+html.no-js(lang='en' prefix="og: http://ogp.me/ns#")
+	head
+		meta(charset='utf-8')
+		meta(name=description, content=content)
+		meta(name="viewport", content="width=device-width,initial-scale=1")
+		link(rel="icon", type="image/x-icon", href='img/img.jpg')
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		title= currentPage.slice(0,1).toUpperCase() + currentPage.slice(1) + " | " + siteName
+
+		// Optional theme
+		link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css')
+		link(href='https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i', rel='stylesheet')
+		link(rel="stylesheet", href='./styles.css')
+	body(class=currentPage)
+		//here start the main header
+		header(class='main-header')
+			block main-header 
+		//here ends the main header
+		//here start the main Container
+		main(class='main-container')
+			block main-container
+		//here ends the main Container 
+		//here start the main footer
+		footer(class='main-footer')
+			block main-footer 
+		//here ends the main footer
+		// Latest compiled and minified JavaScript
+		script(src='./index-dist.js')
+

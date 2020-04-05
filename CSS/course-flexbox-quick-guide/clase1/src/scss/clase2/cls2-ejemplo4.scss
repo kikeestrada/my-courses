@@ -1,0 +1,30 @@
+.cls2-ejemplo4{
+ /*
+    MainSize  -> relativo al Main Axis  (Default: Width)  tamaño principal
+    CorssSize -> relativo al Cross Axis (Default: height) tamaño secundario
+  */
+
+  /*
+    flex-grow: indica como va a crecer un elemento con respecto a su flex-basis.
+
+    Espacio disponible X
+    Suma de flex-grow : 5
+    Unit grow: X/5 = X;
+  */
+
+
+  .flex-item{
+    &:nth-child(1){
+      flex-basis: 100px;
+      flex-grow: 0;
+      //este primero se mantiene fijo
+    }
+    &:nth-child(2){
+      //el segundo item crece y es flexible mientras que el primero es de un ancho fijo.
+      flex-grow: 2;
+    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

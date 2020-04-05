@@ -1,0 +1,36 @@
+.ejemplo1{
+
+  //======================================================================
+  //  Prestar atencion al comportamiento de los flex items
+  //  cuando se agregamo y/o quitamos el display:flex
+  //  Se crea el contexto para que flexbox funcione
+  //  ya que se trabaja sobre los elementos hijos
+
+  //======================================================================
+  //Debemos recordar que los ejes tienen un inicio y un final y que el
+  //Main Size es relativo al eje principal
+
+  //======================================================================
+  //El Main Size es relativo a su eje principal
+  //Si el eje principal es horizontal, el main size va a ser el width osea el ancho
+  //Si el eje principal es vertical, el main size va a ser el height osea el alto
+
+  //======================================================================
+  //Cuando ponemos el contexto hacemos que los elemntos se alinien respecto al main axis
+  //Como el main axis es horizontal entonces todos los elementos aparecen uno al lado del otro
+
+  //flex-direction: row;
+  //Este es el estado por defecto y no necesitamos especificarlo
+
+  //flex-direction: row-reverse;
+  //Con este lo que hacemos es cambiar el estado del main start al opuesto
+
+  //flex-direction: column;
+  //flex-direction: column-reverse;
+
+  //======================================================================
+  //Si ponemos un texto dentro de un contenedor este sera envuelto por un flex item anonimo
+  //por esto el texto no necesita obligatoriamente estar dentro de un flex item
+
+
+}

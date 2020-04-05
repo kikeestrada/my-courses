@@ -1,0 +1,23 @@
+.cls2-ejemplo6{
+ /*
+    MainSize  -> relativo al Main Axis  (Default: Width)  tamaño principal
+    CorssSize -> relativo al Cross Axis (Default: height) tamaño secundario
+  */
+
+  /*
+    flex-shrink: es lo contrario a grow, en este caso es para encoger
+    cuando el espacio disponible es negativo.
+    Cuando la suma de los tamannos de sus items superan el tamaño del contenedor
+  */
+
+  .flex-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 25%;
+    margin-left: 15px;
+    &:last-child{
+      margin-right: 15px;
+    }
+  }
+}

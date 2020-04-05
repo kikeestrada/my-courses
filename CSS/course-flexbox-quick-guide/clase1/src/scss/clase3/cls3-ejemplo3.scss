@@ -1,0 +1,27 @@
+.cls3-container3{
+  border: 1px solid black;
+  /* PROPIEDAD : flex-wrap */
+  height: auto;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  //los items se apiñan en su eje pero con el flex-wrap se pasan ala otra linea
+  flex-wrap: wrap;
+  .flex-item{
+    color: white;
+    background: tomato;
+  }
+  .flex-item:nth-child(odd){
+    background: teal;
+  }
+  .flex-item{
+    flex: 0 1 24%;
+    margin-bottom: 7px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

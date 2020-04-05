@@ -1,0 +1,18 @@
+.cls2-ejemplo3{
+ /*
+    MainSize  -> relativo al Main Axis  (Default: Width)  tamaño principal
+    CorssSize -> relativo al Cross Axis (Default: height) tamaño secundario
+  */
+
+  /* flex-basis: Me da el tamaño base o el main size base = el width */
+    .flex-item{
+        //no importa que los anchos sean muy grandes, flexbox los ajusta
+        //flex-basis: auto;
+        //flex-basis: 0;
+        //flex-basis: 5em;
+        flex-basis: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,31 @@
+.cls2-ejemplo2{
+ /*
+    MainSize  -> relativo al Main Axis  (Default: Width)  tamaño principal
+    CorssSize -> relativo al Cross Axis (Default: height) tamaño secundario
+  */
+
+  /*
+    MAIN SIZE
+    1. ESPACIO DISPONIBLE todo el espacio que no esta ocupado por los items
+
+    2.  ESPACIO OCUPADO: si un item tienen un marge, el marge se considera espacio ocupado
+        si un item mide 100px y tienen un margen de 10px, su tammaño es de 120px,
+        los margenes s=nunca se colapsan
+
+    3.  los items se rigen por los mismos principios del modelo de caja
+        Por esa razon los brdes suman al espacio que ocupan los items
+        para evitar esto debemos usar el box-sizing:border-box;
+
+    4. el espacio disponible podria er negativo o positivo
+  */
+
+align-items: center;
+  .flex-item{
+    margin: 10px;
+    //no importa que los anchos sean muy grandes, flexbox los ajusta
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

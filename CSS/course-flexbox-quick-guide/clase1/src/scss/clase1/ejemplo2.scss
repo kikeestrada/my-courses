@@ -1,0 +1,15 @@
+
+.ejemplo2{
+  .flex-item{
+    width: 100px;
+    height: 100px;
+    //======================================================================
+    //tambien podemos anidar la propiedad display flex dentro de los flex items por ejemplo para centar el
+    //text-outline: de los items, ver el siguiente ejemplo.
+    //Si tenemos un texto limpio este sera envuelto en un flex item anonimo
+    //y por esa razon el texto no requiere ser envuelto por ningun elemento
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
