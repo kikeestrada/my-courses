@@ -1,2 +1,0 @@
-"use strict";function Boy(o){var e=this;this.edad=0,setInterval(function(){e.edad++},1e3)}console.log("Clase 4.15 Lexical This"),console.log("");var juanito=new Boy;console.log(juanito),console.log("");
-//# sourceMappingURL=main-dist.js.map

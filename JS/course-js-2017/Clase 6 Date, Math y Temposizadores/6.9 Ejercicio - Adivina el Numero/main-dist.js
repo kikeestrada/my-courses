@@ -1,2 +1,0 @@
-"use strict";console.log("Clase 6.9 - Ejercicio: Adivina el numero"),console.log("Funcion de numeros aleatorios");var getRandomNumber=function(o,e){return Math.floor(Math.random()*(e-o)+o)};console.log("El codigo esta comentado porque es un ejercicio de ciclo casi infinito");
-//# sourceMappingURL=main-dist.js.map

@@ -1,2 +1,0 @@
-"use strict";console.log("Clase 2.7"),console.log("Operador Ternario"),console.log(""),console.log("Es una forma abreviada de escribir un if"),console.log("condicion ? valorTrue : valorFalse"),console.log("");var nombre=prompt("Escribe tu nombre");5<nombre.length?console.log("tu nombre es largo"):console.log("tu nombre es corto");
-//# sourceMappingURL=main-dist.js.map

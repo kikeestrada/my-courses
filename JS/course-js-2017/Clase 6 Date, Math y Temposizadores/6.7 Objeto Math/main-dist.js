@@ -1,2 +1,0 @@
-"use strict";console.log("Clase 6.7 - Objeto Math"),console.log(""),console.log("arr = [1,2,3,7,4,5];");var arr=[1,2,3,7,4,5];console.log("max "+Math.max.apply(Math,arr)),console.log("min "+Math.min.apply(Math,arr)),console.log("");
-//# sourceMappingURL=main-dist.js.map

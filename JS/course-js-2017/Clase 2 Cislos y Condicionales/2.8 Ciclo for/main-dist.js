@@ -1,2 +1,0 @@
-"use strict";console.log("Clase 2.8"),console.log("Ciclo for");for(var teachers=["Jon","Alexys","Daniel","Francisco","Rafa","José","Alvaro"],i=0;i<teachers.length&&0!==teachers[i].toUpperCase().indexOf("A");i++)console.log(teachers[i]);
-//# sourceMappingURL=main-dist.js.map

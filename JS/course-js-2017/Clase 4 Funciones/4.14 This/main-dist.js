@@ -1,2 +1,0 @@
-"use strict";function checkThis(){console.log(this)}console.log("Clase 4.14 This"),console.log(""),checkThis(),console.log("use strict nos da undefined"),console.log("si el use strict nos da el objeto window");
-//# sourceMappingURL=main-dist.js.map

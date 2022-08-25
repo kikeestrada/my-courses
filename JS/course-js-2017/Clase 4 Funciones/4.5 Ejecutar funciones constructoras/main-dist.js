@@ -1,2 +1,0 @@
-"use strict";console.log("Clase 4.5 - Ejecutar funciones constructoras");var Pais=function(o,e){this.nombre=o,this.moneda=e},peru=new Pais("Peru","Sol");console.log(peru);
-//# sourceMappingURL=main-dist.js.map

@@ -137,7 +137,7 @@ if(true){
     
 }
 // operador ternario
-(true)?'no':'si'; 
+(true)?'no':'si';
 
 
 // sentencia switch

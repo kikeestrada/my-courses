@@ -1,2 +1,0 @@
-"use strict";function restar(n){return function(e){return n-e}}console.log("Clase 4.3 - Ejecutar funciones dentro de otras funciones");var miResta=restar(5)(3);console.log(miResta);
-//# sourceMappingURL=main-dist.js.map

@@ -24,9 +24,16 @@ console.log('=========IIFE===========');
    * la variable primero
    * por asunto del hoisting
    */
+   console.log('=========Saludo===========');
   var saludo = 'saludo arriba';
   console.log(saludo);
   var saludo = 'saludo abajo';
+  console.log(saludo);
+  console.log('=========Saludo===========');
+
+
+
+  console.log('=========hoisting===========');  
 /**
  * ejercicio de nivel de hoisting
  */
@@ -44,7 +51,6 @@ function nivel (){
     }
 }
 console.log(nivel());
-
 
 // ===============
 
@@ -66,7 +72,7 @@ console.log(nivel());
  }
 
  console.log(tierra()); 
-
+ console.log('=========hoisting==========='); 
 
 //  Objetos
 /**

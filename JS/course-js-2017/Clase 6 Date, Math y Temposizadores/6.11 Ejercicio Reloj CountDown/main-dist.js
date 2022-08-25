@@ -1,2 +1,0 @@
-"use strict";console.log("Clear 6.11 - Ejercicio reloj y countdown"),console.log("");var countDown=function(n){var t=setInterval(function(){n-=1e3;var o=Math.floor(n/6e4),e=Math.floor(n%6e4/1e3);document.body.innerHTML="Quedan "+o+" minutos y "+e+" segundos",0===n&&(clearInterval(t),document.body.innerHTML="Tiempo cumplido")},1e3)};countDown(3e3);
-//# sourceMappingURL=main-dist.js.map

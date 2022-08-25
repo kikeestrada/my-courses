@@ -5,23 +5,23 @@
  * JS NO TIENE CLASES
  */
 
- /**
-  * Recomendaciones
-  * nombre.version.js
-  * var NombreVariable
-  * var CONSTANT
-  * objeto.propiedad
-  * objeto.metodo()
-  * '' usar comillas simples
-  * var Class
-  */
+/**
+ * Recomendaciones
+ * nombre.version.js
+ * var NombreVariable
+ * var CONSTANT
+ * objeto.propiedad
+ * objeto.metodo()
+ * '' usar comillas simples
+ * var Class
+ */
 
 /**
  * Funcion Declarada en 
  * su mínima expresión
  */
 function fn01(){
-    console.log('fn01');
+console.log('fn01');
 }
 /**
  * En este caso solo nos dice 
@@ -38,23 +38,23 @@ fn01();
  * Funciones con parametros y Argumentos
  */
 function suma(numX,numY){ //parameters
-	console.log(numX+numY);
+console.log(numX+numY);
 }
 
 console.log(suma(5,7)); //arguments
- 
+
 
 /**
  * Funciones sin parametros
  * Dinamica sobre N numero de
  */
- 
+
 function resta(){
-	var result = 0;
-	for (var i = arguments.length - 1; i >= 0; i--) {
-		result += arguments[i];
-	};
-	return result;
+var result = 0;
+for (var i = arguments.length - 1; i >= 0; i--) {
+    result += arguments[i];
+};
+return result;
 }
 console.log(resta(1,2));
 
@@ -65,11 +65,11 @@ console.log(resta(1,2));
  * a la function
  */
 
- var fn04 = function fn03(){
-     console.log('fn Expresada')
- }
+var fn04 = function fn03(){
+console.log('fn Expresada')
+}
 
- console.log(fn04());
+console.log(fn04());
 /**
  * este caso no funciona
  * aparece como undefined
@@ -83,7 +83,7 @@ console.log(resta(1,2));
  */
 
 var fn05 = function(){
-	console.log('FN expresada anonima');
+console.log('FN expresada anonima');
 }
 console.log(fn05());
 

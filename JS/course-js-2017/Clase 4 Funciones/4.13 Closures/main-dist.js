@@ -1,2 +1,0 @@
-"use strict";function saludar(){return function(a){console.log("Hola "+a+" ")}}console.log("Clase 4.13 - Closures"),console.log("");var miSaludo=saludar();miSaludo("Alexys"),miSaludo("Daniel");var afuera=function(){var a=1;return function(){a++,console.log(a)}},aumentar=afuera();aumentar(),aumentar(),aumentar(),aumentar(),aumentar(),console.log(""),afuera()(),afuera()(),afuera()(),afuera()(),afuera()();
-//# sourceMappingURL=main-dist.js.map

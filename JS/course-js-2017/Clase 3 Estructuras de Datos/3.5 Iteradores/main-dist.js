@@ -1,2 +1,0 @@
-"use strict";console.log("Clase 3.5"),console.log("Iteradores"),console.log("Te permite recorrer un array y guarda su estado anterior"),console.log(".keys() .values() .entries()"),console.log("");var array=[1,2,3,4,5];console.log(array),console.log(""),console.log(".keys()");var iterador=array.keys();console.log(iterador),console.log(""),console.log(iterador.next()),console.log("Hola mundo"),console.log(iterador.next()),console.log(iterador.next()),console.log(iterador.next()),console.log(iterador.next()),console.log(iterador.next());
-//# sourceMappingURL=main-dist.js.map

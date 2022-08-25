@@ -1,2 +1,0 @@
-"use strict";console.log("Clase 6.2 - Date, Metodos y Get"),console.log("");var date=new Date;console.log("getFullYear: "+date.getFullYear()),console.log("getMonth "+date.getMonth()),console.log("getHours: "+date.getHours()),console.log("getSeconds: "+date.getSeconds()),console.log("getMilliseconds: "+date.getMilliseconds()),console.log("getDate: "+date.getDate()),console.log("getDay: "+date.getDay()),console.log("getTime: "+date.getTime());
-//# sourceMappingURL=main-dist.js.map

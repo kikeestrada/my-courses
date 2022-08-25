@@ -1,2 +1,0 @@
-"use strict";console.log("Clase 3.13"),console.log("Ejercicio mejor estudiante ( Método reduce)");var estudiantes=[{nombre:"Carlos",calificacion:20},{nombre:"Juan",calificacion:12},{nombre:"María",calificacion:9},{nombre:"Pepe",calificacion:7},{nombre:"Arturo",calificacion:17}],mejorEstudiante=estudiantes.reduce(function(c,i){return c.calificacion>i.calificacion?c:i});console.log(mejorEstudiante);
-//# sourceMappingURL=main-dist.js.map

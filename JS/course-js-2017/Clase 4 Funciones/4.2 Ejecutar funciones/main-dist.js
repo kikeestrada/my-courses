@@ -1,2 +1,0 @@
-"use strict";console.log("Clase 4.2"),console.log("Ejecutar Functions");var obj={nombre:"objeto",sumar:function(o,r){return o+r}},miOtraSuma=obj.sumar(2,3);console.log(miOtraSuma);
-//# sourceMappingURL=main-dist.js.map

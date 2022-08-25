@@ -11,6 +11,7 @@ console.log('');
 console.log('Incremento y Decremento');
 console.log('');
 let number = 10;
+
 console.log(number);
 console.log('');
 
@@ -22,13 +23,30 @@ console.log('-- decrementa en 1');
 console.log(--number);
 console.log('');
 
-console.log('+=, -=, *=, /=');
-console.log(number += 0);
+console.log('+=');
+console.log(number += 5);
 console.log('');
 
+console.log('-=');
+console.log(number -= 5);
+console.log('');
 
-console.log('=+, =- ');
-console.log(number =+ 5);
+console.log('*=');
+console.log(number *= 5);
+console.log('');
+
+console.log('/=');
+console.log(number /= 5);
+console.log('');
+
+let numero = 10;
+console.log('=+');
+console.log(numero =+ 5);
+console.log('');
+
+let numero2 = 10;
+console.log('=-');
+console.log(numero2 =- 5);
 console.log('');
 
 
